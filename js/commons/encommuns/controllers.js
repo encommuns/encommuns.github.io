@@ -7,10 +7,10 @@
   module.controller("TestCtrl", (function(_this) {
     return function($scope) {
       $scope.lineChartData = {
-        labels: ['Gouvernance', 'Technique', 'Contribution', 'Partage', 'Juridique', 'Mutualisation', 'Financement', 'Prestation', 'Partenaires', 'Evaluation'],
+        labels: ['Gouvernance', 'Partage', 'Contribution', 'Juridique', 'Financement','Partenaires'],
         datasets: [
           {
-            data: [300, 300, 350, 400, 200, 400, 300, 200, 180, 290]
+            data: [300, 300, 350, 400, 200, 40]
           }
         ]
       };
