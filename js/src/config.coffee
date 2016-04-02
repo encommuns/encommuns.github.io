@@ -3,7 +3,7 @@
     useHtml5Mode: false,
     projectSheetTemplateSlug: 'unisson',
     defaultSiteTags: ['commun'],  # comma-separated list of site tags
-    editorialSuggestedTags : ['Alimentation', 'Équipements', 'Mobilité', 'Services', 'Tourisme', 'Culture'], # list of tags suggested instead of most popular ones
+    editorialSuggestedTags : [], # list of tags suggested instead of most popular ones
     defaultResultLimit : 20, # nb of results loaded by default in projects list page
 
 
