@@ -5,7 +5,7 @@
     useHtml5Mode: false,
     projectSheetTemplateSlug: 'unisson',
     defaultSiteTags: ['commun'],
-    editorialSuggestedTags: ['Alimentation', 'Équipements', 'Mobilité', 'Services', 'Tourisme', 'Culture'],
+    editorialSuggestedTags: [],
     defaultResultLimit: 20,
     bucket_uri: 'http://data.patapouf.org/bucket/upload/',
     loginBaseUrl: 'http://data.patapouf.org/api/v0',
