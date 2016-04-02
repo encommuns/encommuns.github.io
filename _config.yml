@@ -5,7 +5,7 @@ email: contact@encommuns.org
 description: > 
   Repérer les communs et les caractériser pour favoriser la convergence des contributions et la récipricité économique autour des communs
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://encommus.org" # the base hostname & protocol for your site
+url: "http://encommuns.org" # the base hostname & protocol for your site
 twitter_username: encommuns
 github_username:  encommuns.github.io
 logo: 
