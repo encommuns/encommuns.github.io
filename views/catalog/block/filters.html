@@ -16,6 +16,19 @@
             </tags-input>
         </div>
     </div><!-- /input-group -->
+    <h4><b>Filtrage par territoire</b></h4>
+    <div class="input-group">
+        <ul class="tags tags-project">
+            <li><a href="/#/p/list?tag=lille">Lille</a></li>
+             <li><a href="/#/p/list?tag=brest">Brest</a></li>
+             <li><a href="/#/p/list?tag=bretagne">Bretagne/a></li>
+             <li><a href="/#/p/list?tag=toulouse">Toulouse</a></li>
+             <li><a href="/#/p/list?tag=bordeaux">Bordeaux</a></li>
+             <li><a href="/#/p/list?tag=réunion">Réunion</a></li>
+             
+        </ul>
+    </div>
+    <h4><b>Tags les plus utilisés</b></h4>
     <ul class="tags tags-project">
         <li ng-repeat="tag in suggestedTags | tagFieldNotInArray:config.defaultSiteTags:'name' | tagFieldNotInArray:tags_filter_flat:'name' | limitTo:6">
             <a href="" ng-click="addToTagsFilter(tag)">{{tag.name}}</a>
@@ -23,7 +36,7 @@
 
     </ul>
 
-    <h4>Moteur de recherche</h4>
+    <!-- <h4>Moteur de recherche</h4>
     <div class="input-group">
         <form ng-submit="refreshFilter()">
             <input type="text" ng-model="query_filter" class="form-control" placeholder="Rechercher...">
