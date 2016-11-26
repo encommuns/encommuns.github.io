@@ -12,7 +12,7 @@
 </li>
   </ul>
   <div class="tab-content">
-    <!-- ngRepeat: tab in tabs --><div class="tab-pane ng-scope active" ng-repeat="tab in tabs" ng-class="{active: tab.active}" tab-content-transclude="tab">
+    <!-- ngRepeat: tab in tabs --><div class="tab-pane ng-scope active" ng-class="{active: tab.active}" tab-content-transclude="tab">
     
 
   </div><!-- end ngRepeat: tab in tabs -->
@@ -38,7 +38,7 @@
   </span><p></p>
   <br>
   <br>
-    <!-- ngRepeat: prestation in prestations --><!-- end ngRepeat: prestation in prestations --><div ng-repeat="prestation in prestations" class="table table-striped ng-scope">
+    <!-- ngRepeat: prestation in prestations --><!-- end ngRepeat: prestation in prestations --><div class="table table-striped ng-scope">
 
     <span class="ng-scope" ng-controller="CollapseCtrl">
     <span ng-click="isCollapsed = !isCollapsed">
@@ -58,7 +58,7 @@
     <th style="font-weight: bold;">Contribution financière de la ville aux "communs"</th>
         </tr>
         <!-- group members -->
-        <!-- ngRepeat: module in prestation.modules --><tr class="ng-scope" ng-repeat="module in prestation.modules">
+        <!-- ngRepeat: module in prestation.modules --><tr class="ng-scope">
     
    
     <td><a class="ng-binding" href="http://transportsdufutur.typepad.fr/blog/2014/06/les-innovations-sociales-et-les-diff%C3%A9rentes-formes-dintelligences-collectives.html">Développement de lieux culturels</a></td>
