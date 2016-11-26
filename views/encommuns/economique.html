@@ -30,16 +30,16 @@
   </span></p>
   <br>
   <br>
-    <!-- ngRepeat: prestation in prestations --><!-- end ngRepeat: prestation in prestations --><div class="table table-striped ng-scope">
+    <div class="table table-striped">
 
-    <span class="ng-scope" ng-controller="CollapseCtrl">
+    <span ng-controller="CollapseCtrl">
     <span ng-click="isCollapsed = !isCollapsed">
-    <button type="button" class="btn btn-xs">
-      <!-- ngIf: isCollapsed --> <!-- ngIf: !isCollapsed --><span ng-if="!isCollapsed" class="glyphicon glyphicon-chevron-down ng-scope"></span><!-- end ngIf: !isCollapsed -->
-        </button><strong class="ng-binding">Politique de développement de la culture de la Ville</strong>
-    <div style="height: auto;" class="collapse in" collapse="isCollapsed">
+        <button type="button" class="btn btn-xs">
+      <span ng-if="isCollapsed" class="glyphicon glyphicon-chevron-right"></span> <span ng-if="!isCollapsed" class="glyphicon glyphicon-chevron-down"></span>
+        </button><strong>Politique de développement de la culture de la Ville</strong>
+<div collapse="isCollapsed">
     <div class="well well-lg">
-    <p class="ng-binding">Quel soutien aux "communs" dans les choix politiques de l'élu Martin Faubry de la ville de Lille, ayant signé la LUPC (Licence à Usage Politique des Communs) ?</p><br>
+    <p>Quel soutien aux "communs" dans les choix politiques de l'élu Martin Faubry de la ville de Lille, ayant signé la LUPC (Licence à Usage Politique des Communs) ?</p><br>
     <table class="table table-striped">
         <tbody><tr>
     <th style="font-weight: bold;">Enjeu</th>
@@ -74,10 +74,10 @@ Contribution financière à hauteur de 300 000€ à la salle de concert Aprosi�
 
     <span class="ng-scope" ng-controller="CollapseCtrl">
     <span ng-click="isCollapsed = !isCollapsed">
-    <button type="button" class="btn btn-xs">
-      <!-- ngIf: isCollapsed --> <!-- ngIf: !isCollapsed --><span ng-if="!isCollapsed" class="glyphicon glyphicon-chevron-down ng-scope"></span><!-- end ngIf: !isCollapsed -->
-        </button><strong class="ng-binding">Mission d'animation d'un hackathon sur les innovations dans les banques</strong>
-    <div style="height: auto;" class="collapse in" collapse="isCollapsed">
+        <button type="button" class="btn btn-xs">
+      <span ng-if="isCollapsed" class="glyphicon glyphicon-chevron-right"></span> <span ng-if="!isCollapsed" class="glyphicon glyphicon-chevron-down"></span>
+        </button><strong>Mission d'animation d'un hackathon sur les innovations dans les banques</strong>
+<div collapse="isCollapsed">
     <div class="well well-lg">
     <br>
     <table class="table table-striped">
