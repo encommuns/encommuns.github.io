@@ -34,7 +34,7 @@
   <br>
     <div class="table table-striped">
 
-    <span ng-controller="CollapseCtrl">
+    <span ng-controller="CollapseCtrl" ng-click="!isCollapsed">
     <span ng-click="isCollapsed = !isCollapsed">
         <button type="button" class="btn btn-xs">
       <span ng-if="isCollapsed" class="glyphicon glyphicon-chevron-right"></span> <span ng-if="!isCollapsed" class="glyphicon glyphicon-chevron-down"></span>
@@ -74,7 +74,7 @@ Contribution financière à hauteur de 300 000€ à la salle de concert Aprosi�
    
     </span></div><!-- end ngRepeat: prestation in prestations --><!-- end ngRepeat: prestation in prestations --><div class="table table-striped ng-scope">
 
-    <span class="ng-scope" ng-controller="CollapseCtrl">
+    <span class="ng-scope" ng-controller="CollapseCtrl" ng-click="!isCollapsed">
     <span ng-click="isCollapsed = !isCollapsed">
         <button type="button" class="btn btn-xs">
       <span ng-if="isCollapsed" class="glyphicon glyphicon-chevron-right"></span> <span ng-if="!isCollapsed" class="glyphicon glyphicon-chevron-down"></span>
