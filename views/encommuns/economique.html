@@ -5,37 +5,29 @@
 <br>
 <div id="content">
 
-                <div class="nav-tabs-project ng-isolate-scope">
-  <ul class="nav nav-tabs" ng-class="{'nav-stacked': vertical, 'nav-justified': justified}" ng-transclude="">
-                    <li class="ng-isolate-scope active" heading="A propos de ce site" ng-class="{active: active, disabled: disabled}">
-  <a class="ng-binding" href="" ng-click="select()" tab-heading-transclude="">A propos de ce site</a>
-</li>
-  </ul>
-  <div class="tab-content">
-    <!-- ngRepeat: tab in tabs --><div class="tab-pane ng-scope active" ng-class="{active: tab.active}" tab-content-transclude="tab">
-    
+                <tabset class="nav-tabs-project">
+                    <tab heading="A propos de ce site">
 
-  </div><!-- end ngRepeat: tab in tabs -->
-  </div>
-</div>
-  <p> Cet espace vise à présenter les liens économiques entre les acteurs utilisant les communs pour se développer et les communs. L'enjeu est double : A la fois afficher la contribution de l'acteur économique et politique suite à l'usage du commun. Et permettre à ces derniers de devenir visibles afin d'être plus facilement référents lors de demandes de sollicitations pour travailler autour d'un commun
+  </tab>
+  </tabset>
+  <p> Cet espace vise à présenter les liens économiques entre les acteurs utilisant les communs pour se développer et les communs. L'enjeu est double : A la fois afficher la contribution de l'acteur économique suite à l'usage du commun. Et permettre à ces derniers de devenir visibles afin d'être plus facilement référents lors de demandes de sollicitations pour travailler autour d'un commun
                
  
 <br><br>
-</p><p>Voici quelques premières prestations économiques autour de communs analysées, afin de voir ce que les activités économiques ont apporté au commun. </p><div style="height: auto;" class="collapse in" collapse="isCollapsed"></div>
-  <span class="ng-scope" ng-controller="CollapseCtrl">
-    <a href="" ng-click="isCollapsed = !isCollapsed"><span class="glyphicon glyphicon-info-sign"></span><small>  En savoir plus ?</small></a>
-    <div style="height: 0px;" class="collapse" collapse="isCollapsed">
+<p>Voici quelques premières prestations économiques autour de communs analysées, afin de voir ce que les activités économiques ont apporté au commun. <div collapse="isCollapsed"></div>
+  <span ng-controller="CollapseCtrl">
+    <a href="" ng-click="isCollapsed = !isCollapsed"><span class="glyphicon glyphicon-info-sign" ></span><small>  En savoir plus ?</small></a>
+    <div collapse="isCollapsed">
     <div class="well well-lg">
     Le budget du tableau ci dessous réflète l'usage de cette approche, en positionnant :<br><br>
   - Une partie du financement au prestataire. Pour chaque besoin spécifique de la prestation qui ne trouve pas de réponse dans des communs, le prestataire va s'attribuer un budget afin soit d'améliorer le commun, soit adapter le commun pour les spécificités de la prestation. Vis à vis de ce buget, le prestataire indique ce qu'il va reverser en nature au "commun".
   <br>
-  - Une partie des financements directement auprès de «&nbsp;communs&nbsp;». Un financement dédié à un commun va à sa communauté qui utilise alors son propre modèle de répartition financier. Par exemple, chez wikipedia, le financement va à l'équipe de salarié de l'association alors que chez Gratipay.com, le financement va au collectif qui le redistribue grâce à <a href="https://gratipay.com/Gratipay/members/" target="_blank">un outil de répartition de la somme collectée selon les contributions.</a><br>
-  <br>En savoir plus sur <a href="http://unisson.co/prestation" target="_blank">la page wiki "prestation" du site unisson.co</a>
+  - Une partie des financements directement auprès de « communs ». Un financement dédié à un commun va à sa communauté qui utilise alors son propre modèle de répartition financier. Par exemple, chez wikipedia, le financement va à l'équipe de salarié de l'association alors que chez Gratipay.com, le financement va au collectif qui le redistribue grâce à <a href="https://gratipay.com/Gratipay/members/" target=_blank>un outil de répartition de la somme collectée selon les contributions.</a><br>
+  <br>En savoir plus sur <a href="http://unisson.co/prestation" target=_blank>la page wiki "prestation" du site unisson.co</a>
     <br>  
     </div> 
     </div>
-  </span><p></p>
+  </span></p>
   <br>
   <br>
     <!-- ngRepeat: prestation in prestations --><!-- end ngRepeat: prestation in prestations --><div class="table table-striped ng-scope">
@@ -58,10 +50,10 @@
     <th style="font-weight: bold;">Contribution financière de la ville aux "communs"</th>
         </tr>
         <!-- group members -->
-        <!-- ngRepeat: module in prestation.modules --><tr class="ng-scope">
+        <!-- ngRepeat: module in prestation.modules --><tr class="ng-scope" >
     
    
-    <td><a class="ng-binding" href="http://transportsdufutur.typepad.fr/blog/2014/06/les-innovations-sociales-et-les-diff%C3%A9rentes-formes-dintelligences-collectives.html">Développement de lieux culturels</a></td>
+    <td><a class="ng-binding" href="">Développement de lieux culturels</a></td>
     <td class="ng-binding">Création de 3 salles de concerts </td>
     <td class="ng-binding">2 millions d'€</td>
     <td><!-- ngRepeat: projectprestation in module.project --><p class="ng-scope"><a class="ng-binding" href="/#/">- Salle de concert municipale</a></p>
@@ -78,16 +70,7 @@ Contribution financière à hauteur de 300 000€ à la salle de concert Aprosi�
     </div>
   </span>
    
-    </span></div><!-- end ngRepeat: prestation in prestations --><!-- end ngRepeat: prestation in prestations -->
-  
-  
-  
-  
-  
-  
-  
-  
-<div  class="table table-striped ng-scope">
+    </span></div><!-- end ngRepeat: prestation in prestations --><!-- end ngRepeat: prestation in prestations --><div class="table table-striped ng-scope">
 
     <span class="ng-scope" ng-controller="CollapseCtrl">
     <span ng-click="isCollapsed = !isCollapsed">
@@ -107,7 +90,7 @@ Contribution financière à hauteur de 300 000€ à la salle de concert Aprosi�
     <th style="font-weight: bold;">Contribution en nature du prestataire aux "communs"</th>
         </tr>
         <!-- group members -->
-        <!-- ngRepeat: module in prestation.modules --><tr class="ng-scope" ng-repeat="module in prestation.modules">
+        <!-- ngRepeat: module in prestation.modules --><tr class="ng-scope" >
     
    
     <td><a class="ng-binding" href="">Organisation du hackathon</a></td>
@@ -128,17 +111,15 @@ Contribution financière à hauteur de 300 000€ à la salle de concert Aprosi�
     </div>
   </span>
    
-    </span></div>  
-  
-  
-  
-  
-  
+    </div>
 
 
   </div>
-      
-     
+
+
+
+  </div>
+
   </div>
 
 
