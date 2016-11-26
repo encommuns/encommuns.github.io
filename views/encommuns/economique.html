@@ -34,12 +34,12 @@
   <br>
     <div class="table table-striped">
 
-    <span ng-controller="CollapseCtrl" ng-click="!isCollapsed">
+    <span ng-controller="CollapseCtrl" >
     <span ng-click="isCollapsed = !isCollapsed">
         <button type="button" class="btn btn-xs">
       <span ng-if="isCollapsed" class="glyphicon glyphicon-chevron-right"></span> <span ng-if="!isCollapsed" class="glyphicon glyphicon-chevron-down"></span>
         </button><strong>Politique de développement de la culture de la Ville</strong>
-<div collapse="isCollapsed">
+<div collapse="!isCollapsed">
     <div class="well well-lg">
     <p>Quel soutien aux "communs" dans les choix politiques de l'élu Martin Faubry de la ville de Lille, ayant signé la LUPC (Licence à Usage Politique des Communs) ?</p><br>
     <table class="table table-striped">
@@ -79,7 +79,7 @@ Contribution financière à hauteur de 300 000€ à la salle de concert Aprosi�
         <button type="button" class="btn btn-xs">
       <span ng-if="isCollapsed" class="glyphicon glyphicon-chevron-right"></span> <span ng-if="!isCollapsed" class="glyphicon glyphicon-chevron-down"></span>
         </button><strong>Mission d'animation d'un hackathon sur les innovations dans les banques</strong>
-<div collapse="isCollapsed">
+<div collapse="!isCollapsed">
     <div class="well well-lg">
     <br>
     <table class="table table-striped">
