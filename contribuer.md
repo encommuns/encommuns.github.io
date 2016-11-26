@@ -10,7 +10,7 @@ permalink: /contribuer/
 </tabset>
 </div>
 
-- - Rejoignez [la liste de discussion](https://framalistes.org/sympa/subscribe/encommuns.org) pour échanger avec le collectif sur cette plateforme
+- - Rejoignez [la liste de discussion](https://groups.google.com/forum/#!members/encommuns) pour échanger avec le collectif sur cette plateforme
 
 <div id="content">
               <tabset class="nav-tabs-project">
